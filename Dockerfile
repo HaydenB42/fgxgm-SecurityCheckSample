@@ -1,6 +1,6 @@
 FROM node:21.6.1-bookworm-slim
 
-RUN npm install -g npm@9.1.3
+RUN npm install -g npm@10.4.0
 
 ADD package.json .
 ADD index.js .
